@@ -1,0 +1,98 @@
+.topo {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* .topo img {
+    position: relative;
+    left: 15%;
+    width: 100px;
+} */
+
+.topo .link {
+    position: absolute;
+}
+
+.topo .link a {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 2px 2px #ff0000;
+}
+
+.img-fundo {
+    background-image: url('../img/img-fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.quem-somos {
+    width: 70vw;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.quem-somos div {
+    padding-top: 20px;
+    border-bottom: 2px solid #ff0000;
+}
+
+.contato {
+    padding-top: 20px;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+.contato h2 {
+    color: #fff;
+    text-shadow: 0px 2px 2px #ff0000;
+    padding: 10px 0;
+}
+
+.contato img {
+    width: 50px;
+    height: 50px;
+}
+
+.contato iframe {
+    margin: 0 auto;
+    width: 60vw;
+    height: 60%;
+}
+
+.contato a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.rodape {
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape img {
+    width: 50px;
+}
+
+/* .rodape .desenvolvedora {
+    font-size: 12px;
+    bottom: 5px;
+} */
